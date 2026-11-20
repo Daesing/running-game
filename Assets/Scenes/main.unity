@@ -817,7 +817,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -937,8 +937,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97cae4462e316cd4db7acefd6dbac0e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Plater
-  JumpForce: 10
+  JumpForce: 15
   PlayerRigidBody: {fileID: 782028613}
+  PlayerAnimator: {fileID: 782028614}
 --- !u!1 &1110735276
 GameObject:
   m_ObjectHideFlags: 0

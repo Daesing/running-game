@@ -1,7 +1,7 @@
 using System.Numerics;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class BackgroundScroll : MonoBehaviour
 {
 
     public float ScrollSpeed;
